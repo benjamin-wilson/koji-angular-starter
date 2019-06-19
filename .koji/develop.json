@@ -1,0 +1,15 @@
+{
+    "develop": {
+        "frontend": {
+            "path": "src",
+            "port": 4200,
+            "events": {
+                "started": "[ng] Frontend server started",
+                "building": "[ng] Frontend building",
+                "built": "Compiled successfully.",
+                "build-error": "[ng] Frontend build error"
+            },
+            "startCommand": "npm start"
+        }
+    }
+}

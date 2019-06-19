@@ -1,0 +1,13 @@
+{
+    "deploy": {
+        "frontend": {
+            "output": "angular/build",
+            "type": "static",
+            "commands": [
+                "cd src",
+                "npm install",
+                "npm run build-prod"
+            ]
+        }
+    }
+}
